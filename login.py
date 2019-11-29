@@ -14,4 +14,4 @@ async def goodbye(ctx):
     await ctx.send(f"じゃあね、{ctx.message.author.name}さん！")
 
 
-bot.run('NjQ5NjQwMDE4NjY2ODQ4Mjcx.XeEfIA.GZxuyoYKxLwky_CmCF77CRVUpwg')
+bot.run('NjUwMDIxMjgxODQ0MDM1NjA0.XeFSSg.xGsu76DK4xmGZJqeE_MJDO5Fj6g')
