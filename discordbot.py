@@ -13,5 +13,5 @@ async def mimikkyu(ctx):
 async def goodbye(ctx):
     await ctx.send(f"じゃあね、{ctx.message.author.name}さん！")
 
-
-bot.run('NjQ5NjQwMDE4NjY2ODQ4Mjcx.XeEZ0g.ySH_0H9jnnXNkU64FWH2IA2YamQ')
+token = os.environ['DISCORD_BOT_TOKEN']
+bot.run(token)
